@@ -13,7 +13,8 @@ Add at least one blank line between method definitions and property definitions.
 Use parentheses to make clauses in an expression apparent, as shown in the following code.
 
 
- 
+| Subject                   |Case                   |
+| ------------------------- | --------------------- |
 | Class name                | PascalCase            | 
 | Constructor name          | PascalCase            | 
 | Method name               | PascalCase            | 
@@ -28,13 +29,16 @@ Use parentheses to make clauses in an expression apparent, as shown in the follo
 Method Names
 Methods should have verb or verb phrase names like postPayment, deletePage, or save.
 Use one word per concept
-like :
+
+| like :                 |
+| -----------------------|
 | verb + name + Name     |
 | CreateCartForCustomer()|
 
 REST API Naming 
 resource (controller) can be a singleton or a collection
-like :
+| like :             |
+| -------------------|
 | User / users       |
 | product / products |
 
@@ -44,7 +48,8 @@ like:
 
 Use nouns to represent resources
 do not use Get / Create / Update RESTful URI should refer to a resource that is a thing (noun) instead of referring to an action (verb)
-like
+| like :                                 |
+| ---------------------------------------|
 | api/users//user-management             |
 | api/device-management/managed-devices  | 
 
